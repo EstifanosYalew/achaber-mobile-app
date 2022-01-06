@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../contents/player.dart';
+import '../contents/player2.dart';
 
 class wudassie extends StatelessWidget {
   const wudassie({Key key}) : super(key: key);
@@ -26,7 +26,7 @@ class wudassie extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) {
                       return MaterialApp(
-                        home: MusicPlayer('audio/sen.mp3'),
+                        home: MyApp('audio/sen.mp3'),
                       );
                     }),
                   );
@@ -48,7 +48,7 @@ class wudassie extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) {
                       return MaterialApp(
-                        home: MusicPlayer('audio/sel.mp3'),
+                        home: MyApp('audio/sel.mp3'),
                       );
                     }),
                   );
@@ -70,7 +70,7 @@ class wudassie extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) {
                       return MaterialApp(
-                        home: MusicPlayer('audio/reb.mp3'),
+                        home: MyApp('audio/reb.mp3'),
                       );
                     }),
                   );
@@ -94,7 +94,7 @@ class wudassie extends StatelessWidget {
                     MaterialPageRoute(builder: (context) {
                      // print("jfffffffffffffffffffffffffffffff");
                       return MaterialApp(
-                        home: MusicPlayer('audio/ham.mp3'),
+                        home: MyApp('audio/ham.mp3'),
                       );
                     }),
                   );
@@ -116,7 +116,7 @@ class wudassie extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) {
                       return MaterialApp(
-                        home: MusicPlayer('audio/arb.mp3'),
+                        home: MyApp('audio/arb.mp3'),
                       );
                     }),
                   );
@@ -138,7 +138,7 @@ class wudassie extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) {
                       return MaterialApp(
-                        home: MusicPlayer('audio/ked.mp3'),
+                        home: MyApp('audio/ked.mp3'),
                       );
                     }),
                   );
@@ -160,7 +160,7 @@ class wudassie extends StatelessWidget {
                     context,
                     MaterialPageRoute(builder: (context) {
                       return MaterialApp(
-                        home: MusicPlayer('audio/ehu.mp3'),
+                        home: MyApp('audio/ehu.mp3'),
                       );
                     }),
                   );
